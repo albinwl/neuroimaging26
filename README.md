@@ -1,11 +1,11 @@
 # neuroimaging26
 
 ### Group information
-Group 10
-Albin Fredrik Wickman Lundberg (ist1119353)
-Ana Beatriz Machado (ist1119776)
-Bianca Cornaggia (ist1119620)
-Don Enrico Buebos Esteve (ist1118650)
+Group 10 \
+Albin Fredrik Wickman Lundberg (ist1119353) \
+Ana Beatriz Machado (ist1119776)\
+Bianca Cornaggia (ist1119620)\
+Don Enrico Buebos Esteve (ist1118650)\
 Jose Enrique Lopez (ist1118909)
 
 ### Abstract
