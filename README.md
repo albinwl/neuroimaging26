@@ -1,4 +1,4 @@
-# neuroimaging26
+#  Brain Morphometry and Network Function: Structural MRI and Resting-State fMRI
 
 ### Group information
 Group 10 \
@@ -9,16 +9,13 @@ Don Enrico Buebos Esteve (ist1118650)\
 Jose Enrique Lopez (ist1118909)
 
 ### Abstract
+Parkinson's disease (PD) is a progressive neurodegenerative disorder[1,3]. In this project, we investigated how PD affects brain morphometry in the putamen [2], amygdala, and hippocampus using structural MRI, and Default Mode Network (DMN) connectivity using resting-state fMRI [4,5]. Two subjects — one PD patient with normal cognition (PD-NC) and one healthy control (HC) — from the public OpenNeuro ds005892 dataset [6] were analysed in a Neurodesk environment [9–12].
 
-Parkinson's disease (PD) is a progressive neurodegenerative disorder caused by the loss of dopaminergic neurons in the substantia nigra, resulting in motor symptoms such as tremors, stiffness, and bradykinesia [1,3]. In this project, we investigated how PD affects brain morphometry in the putamen [2], amygdala, and hippocampus using structural MRI, and Default Mode Network (DMN) connectivity using resting-state fMRI [4,5]. Two subjects—one PD patient with normal cognition (PD-NC) and one healthy control (HC)—from the public OpenNeuro ds005892 dataset [6] were analysed using a Neurodesk pipeline.
+For the structural analysis, the pipeline included skull stripping, tissue segmentation into white matter, grey matter, and cerebrospinal fluid, volume extraction of the three regions of interest, and registration to the Montreal Neurological Institute (MNI152) standard space [7].
 
-For the structural analysis, the pipeline included skull stripping, tissue segmentation into white matter (WM), grey matter (GM), and cerebrospinal fluid (CSF), volume extraction of the three regions of interest, and registration to the Montreal Neurological Institute (MNI152) standard space [7].
+For the functional analysis, key preprocessing steps included B0 unwarping, motion correction, and nuisance regression. The independent component best matching the DMN was identified based on the maximum Dice coefficient overlap with Yeo's 7-network DMN template [8].
 
-For the functional analysis, key preprocessing steps included B0 unwarping, motion correction, and nuisance regression of motion parameters, motion outliers, and WM/CSF signals. The independent component (IC) best matching the DMN was identified based on the maximum Dice coefficient overlap with Yeo's 7-network DMN template [8].
-
-We found volume loss in the three studied regions and reduced connectivity in the DMN in the PD-NC subject compared to the HC. However, owing to the minimal sample size, no conclusions can be drawn, and all analyses remain speculative.
-
-This analysis was performed using Python and neuroimaging libraries including Nilearn, Nibabel, and Matplotlib within the Neurodesk environment [9–12].
+We found volume loss in all three regions and reduced connectivity in the DMN in PD-NC compared to HC. However, owing to the minimal sample size, no generalised conclusions can be drawn.
 
 ### Bibliography 
 
